@@ -1,0 +1,39 @@
+{
+  "name": "KnockoutJS Nested DataTable",
+  "version": "0.1.0",
+  "authors": [
+    "https://github.com/Shailu4u"
+  ],
+  "description": "KnockoutJS Nested Datatable is a KnockoutJS custom component which is easy to use, custom element,nesting tables and extensible. All default dataTable functionalities such as sorting, pagination, search etc are applicable in this component.",
+  "main": "ko-nested-datatable.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "nested",
+    "dataTable",
+    "nested datatable",
+    "KnockoutJS-Nested-Datatable",
+    "custom element",
+    "KnockoutJS custom component",
+    "KnockoutJS-datatable-component"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "build/output",
+    "spec",
+    "src",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.8",
+    "requirejs-text":"~2.0.10",
+    "jquery": "1.11.2",
+    "knockout": ">3.2.0",
+    "datatables":"1.10.5"
+  }
+}

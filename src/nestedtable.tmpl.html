@@ -1,0 +1,25 @@
+<table class="dataTable" data-bind="attr: {id: uuid}, dataTableInit: tableConfig">
+    <thead>
+    <tr class="headerBorder" data-bind="foreach: data.Headings">
+        <!-- ko if: $index()==0 -->
+        <th class="col-1">&nbsp;</th>
+        <!--/ko-->
+        <th data-bind="text: $data"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- ko foreach: data.TableRows -->
+        <tr>
+            <!-- ko foreach: $data.data -->
+                <!-- ko if:  $index()==0 -->
+                <td class="col-1">
+                    <!-- ko if: $parent.hasOwnProperty("level") --><span class="accordion">+</span> <!--/ko-->
+                    &nbsp;
+                </td>
+                <!--/ko-->
+                <td data-bind="text: $data"></td>
+            <!--/ko-->
+        </tr>
+    <!--/ko-->
+    </tbody>
+</table>
