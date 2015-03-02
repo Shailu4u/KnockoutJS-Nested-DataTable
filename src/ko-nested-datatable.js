@@ -43,7 +43,7 @@
             innerDefaults = $.extend(innerDefaults, params.innerTableConfig || {});
             self.tableConfig = outerDefaults;
           },
-          template: { require: 'text!../KnockoutJS-Nested-DataTable/src/nestedtable.tmpl.html' }
+          template: { require: 'text!src/nestedtable.tmpl.html' }
       };
 
       ko.components.register("ko-nested-datatable", nestedComponent);

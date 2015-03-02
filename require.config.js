@@ -4,9 +4,7 @@
    'use strict';
 
     require.config({
-        //appDir: "",
-        baseUrl: "../KnockoutJS-Nested-DataTable/",
-        paths: {
+         paths: {
             jquery: "bower_components/jquery/dist/jquery.min",
             knockout: "bower_components/knockout/dist/knockout",
             "datatables": "bower_components/datatables/media/js/jquery.dataTables.min",

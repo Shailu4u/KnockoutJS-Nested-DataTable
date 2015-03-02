@@ -3,6 +3,10 @@
 ### Current Version 0.1.0
 
 ## Getting started
+* Optionally: to install with bower, use:
+```js
+	bower install --save ko-nested-datatable
+```
 
 * Link scripts:
 
@@ -24,9 +28,9 @@ tableData, outerDefaults and innerDefaults are the properties on page view modal
 
 ## Install
 
-* 
+* Download all dependencies using bower: 
 ```js
-	Bower install ko-nested-datatable
+	bower install
 ```
 
 ## Params
