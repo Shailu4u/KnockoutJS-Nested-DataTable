@@ -22,12 +22,7 @@
   "homepage": "index.html",
   "ignore": [
     "**/.*",
-    "node_modules",
-    "test",
-    "build/output",
-    "spec",
-    "src",
-    "tests"
+    "node_modules"
   ],
   "dependencies": {
     "requirejs": "~2.1.8",
